@@ -8,3 +8,11 @@ Social Media Analytics Platform is a scalable data analysis solution built using
 - **User Engagement Analytics**: Measures likes, retweets, mentions, and replies to determine engagement.
 - **Geospatial Analysis**: Maps tweet distributions to understand regional activity.
 - **Network Graphs**: Builds user interaction networks to identify key influencers and communities.
+
+## Tech Stack
+
+- Apache Spark (Batch + Streaming)
+- Python (Pandas, NLTK, Matplotlib)
+- Streamlit (for visualization)
+- Twitter API (for data collection)
+- Python Socket Server (to simulate real-time streaming)
