@@ -39,3 +39,13 @@ The **Python Socket Server** simulates real-time streaming by reading the `tweet
 
    ```bash
    python socket_server.py
+
+### Step 2: Run the Spark Streaming Job
+
+Once the socket server is running, you can run the Spark job to process the real-time data, using the command
+
+    ```bash
+   spark-submit spark_streaming_job.py
+
+  
+
