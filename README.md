@@ -39,6 +39,7 @@ The **Python Socket Server** simulates real-time streaming by reading the `tweet
 
    ```bash
    python socket_server.py
+   ```
 
 ### Step 2: Run the Spark Streaming Job
 
@@ -46,3 +47,11 @@ Once the socket server is running, you can run the Spark job to process the real
 
    ```bash
    spark-submit spark_streaming_job.py
+   ```
+
+### Step 3: Launch the Streamlit Dashboard
+After the data is processed, you can visualize the results with Streamlit:
+
+   ```bash
+   streamlit run dashboard.py
+   ```
