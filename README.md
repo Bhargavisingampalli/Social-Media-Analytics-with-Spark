@@ -46,9 +46,3 @@ Once the socket server is running, you can run the Spark job to process the real
 
    ```bash
    spark-submit spark_streaming_job.py
-
-
-
-   
-
-
