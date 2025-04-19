@@ -34,9 +34,8 @@ Social Media Analytics Platform is a scalable data analysis solution built using
 
 The **Python Socket Server** simulates real-time streaming by reading the `tweets.csv` file line-by-line and sending the data to Spark Streaming via a socket. To start the server:
 
-1. Open a terminal or command prompt.
-2. Navigate to the directory where your `socket_server.py` is located.
-3. Run the following command:
+1. Navigate to the directory where your `socket_server.py` is located.
+2. Run the following command:
 
    ```bash
    python socket_server.py
