@@ -28,3 +28,15 @@ Social Media Analytics Platform is a scalable data analysis solution built using
 
    ```bash
    pip install -r requirements.txt
+2. **Apache Spark**: Ensure that you have **Apache Spark** installed. You can follow the [official Spark installation guide](https://spark.apache.org/docs/latest/) to install it or use a pre-configured environment like **Databricks**.
+
+### Step 1: Start the Python Socket Server
+
+The **Python Socket Server** simulates real-time streaming by reading the `tweets.csv` file line-by-line and sending the data to Spark Streaming via a socket. To start the server:
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where your `socket_server.py` is located.
+3. Run the following command:
+
+   ```bash
+   python socket_server.py
