@@ -16,3 +16,22 @@ Social Media Analytics Platform is a scalable data analysis solution built using
 - Streamlit (for visualization)
 - Twitter API (for data collection)
 - Python Socket Server (to simulate real-time streaming)
+
+## Project Workflow
+
+1. **Data Collection**:
+   - Twitter API was used to collect tweet data and store it in a CSV file.
+
+2. **Preprocessing**:
+   - The CSV data was cleaned, and key features were extracted (hashtags, mentions, timestamps, etc.).
+
+3. **Batch Analysis with Apache Spark**:
+   - Spark was used to perform trend detection, engagement metrics, geospatial analysis, and build network graphs.
+
+4. **Simulated Real-time Streaming with Spark Streaming**:
+   - Using Socket Server on `localhost:9999`, pre-collected data was streamed line-by-line.
+   - Spark Streaming consumed the data and performed live analysis.
+
+5. **Visualization with Streamlit**:
+   - All analytics results were displayed on an interactive dashboard using Streamlit.
+   - App runs locally on `localhost:8050`.
