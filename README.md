@@ -15,10 +15,10 @@ Social Media Analytics Platform is a scalable data analysis solution built using
 - Python (Pandas, NLTK, Matplotlib)
 - Streamlit (for visualization)
 - Twitter API (for data collection)
+
 - Python Socket Server (to simulate real-time streaming)
 
-
-![workflow](https://github.com/user-attachments/assets/c2707547-f48a-4b80-99c3-72bf54a8061c)
+![workflow](https://github.com/user-attachments/assets/77eb81d0-e046-4b92-86cb-20a2e0aa3191)
 
 ## How to Run
 
