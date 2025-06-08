@@ -18,7 +18,7 @@ Social Media Analytics Platform is a scalable data analysis solution built using
 - Python Socket Server (to simulate real-time streaming)
 
 
-   ![My Image](./images/.png)
+   ![My Image](./images/workflow.png)
 
 ## How to Run
 
